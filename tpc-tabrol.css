@@ -2,7 +2,7 @@
   border: var(--border1);
   border-radius: var(--bradius);
   width: 100%;
-  max-width: 600px;
+  max-width: 800px;
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -13,8 +13,8 @@
   font-size: var(--fs-text);
 }
 
-.rol-tab#poseidon {--accent: var(--poseidon); --taccent: var(--tposeidon);}
-.rol-tab#apolo {--accent: var(--apolo); --taccent: var(--tapolo);}
+.rol-tab#poseidon .rol-tit, .rol-tab#poseidon .rol-footer {--accent: var(--poseidon); --taccent: var(--tposeidon);}
+.rol-tab#apolo .rol-tit, .rol-tab#apolo .rol-footer {--accent: var(--apolo); --taccent: var(--tapolo);}
 
 .rol-tab .rol-tit {
   background: var(--tback2);
