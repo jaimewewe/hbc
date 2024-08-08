@@ -288,11 +288,12 @@
   line-height: 100%;
 }
 
-.plot-chrono .chrono-topic#cerrado {--acento: var(--taccent);}
-.plot-chrono .chrono-topic#cerrado .topic-data span {--color: var(--txt4);}
+.plot-chrono .chrono-topic#cerrado, .plot-chrono .chrono-topic#bloqueo {--acento: var(--taccent);}
+.plot-chrono .chrono-topic#cerrado .topic-data span, .plot-chrono .chrono-topic#bloqueo .topic-data span {--color: var(--txt4);}
 
 .plot-chrono .chrono-topic#abierto .topic-ball:before {content: "\f3c1";}
 .plot-chrono .chrono-topic#cerrado .topic-ball:before {content: "\f023";}
+.plot-chrono .chrono-topic#bloqueo .topic-ball:before {content: "\e3dd";}
 
 .plot-chrono .chrono-topic:before {
   content: "";
