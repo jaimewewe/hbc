@@ -1,0 +1,303 @@
+.plot-tab {
+  border: var(--border2);
+  border-radius: var(--bradius);
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: var(--txt1);
+  font-family: var(--font2);
+  line-height: 120%;
+  font-size: var(--fs-text);
+}
+
+.plot-tab .plot-tit {
+  background: var(--back1);
+  width: 100%;
+  font-size: var(--fs-h1);
+  font-family: var(--font1);
+  text-transform: uppercase;
+  font-weight: 900;
+  color: var(--txt1);
+  padding: 60px;
+  line-height: var(--fs-h1);
+  border-bottom: var(--border2);
+  font-style: italic;
+}
+
+.plot-tab .plot-tit span {
+  display: block;
+  font-size: var(--fs-text);
+  font-family: var(--font2);
+  font-weight: 400;
+  font-style: normal;
+  color: var(--txt4);
+  line-height: var(--fs-text);
+}
+
+.plot-tab .plot-tit span:before {
+  content: "";
+  height: 1px;
+  width: 10%;
+  background: var(--taccent);
+  display: inline-block;
+  vertical-align: 3px;
+  margin: 0px 10px 0px 0px;
+}
+
+.plot-tab .plot-quote {
+  padding: 20px 120px 20px 0px;
+  background: var(--back2);
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  border-bottom: var(--border2);
+  align-items: center;
+  font-style: italic;
+  font-family: var(--font1);
+  color: var(--txt3);
+  font-size: var(--fs-body);
+  line-height: var(--fs-bigger);
+  font-weight: 400;
+}
+
+.plot-tab .plot-quote .fa-thin {
+  content: "\e362";
+  font-family: "Font Awesome 6 Pro";
+  font-weight: 100;
+  margin-left: -40px;
+  margin-right: -35px;
+  font-size: calc(var(--fs-title) + 5em);
+  color: var(--taccent);
+  display: block;
+  opacity: 0.50;
+}
+
+.plot-tab .plot-pics {
+  background: var(--back1);
+  height: 170px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: var(--border2);
+}
+
+.plot-pics .pic-brd {
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  padding: 5px;
+  border-radius: calc(var(--bradius) + 5px);
+  border: 1px solid var(--taccent);
+}
+
+.plot-pics .pic-post {
+  border-radius: var(--bradius);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.plot-tab .plot-plot {
+  border-bottom: var(--border2);
+  background-image: url('https://alysbeach.com/wp-content/uploads/2024/03/7Y8A5751-scaled-1.jpg');
+  backgound-size: cover;
+  background-position: center;
+  filter: grayscale(0);
+  box-sizing: border-box;
+  padding: 60px;
+  width: 100%;
+}
+
+.plot-tab .plot-text {
+  border-bottom: var(--border2);
+  width: 100%;
+  box-sizing: border-box;
+  padding: 40px;
+  margin-top: 40px;
+  border-radius: var(--bradius);
+  background: var(--tback1);
+  text-align: justify;
+  word-break: break-word;
+  hyphens: auto;
+}
+
+.plot-tab .plot-text .plot-subt {
+  font-size: var(--fs-h2);
+  font-family: var(--font1);
+  position: absolute;
+  margin-top: -97px;
+  margin-left: -10px;
+  font-weight: 900;
+  text-transform: lowercase;
+  text-shadow: var(--shadow4);
+  line-height: 90%;
+}
+
+.plot-tab .plot-text .plot-subt span {
+  display: block;
+  font-style: italic;
+  font-weight: 900;
+  color: var(--txt1);
+  font-size: var(--fs-h3);
+}
+
+.plot-tab .plot-text b {
+  font-family: var(--font1);
+  font-style: italic;
+  text-shadow: var(--shadow1);
+  font-size: var(--fs-body);
+  font-weight: 700;
+}
+
+.plot-tab .plot-chrs {
+  border-bottom: var(--border2);
+  box-sizing: border-box;
+  width: 100%;
+  padding: 60px;
+  background: var(--back2);
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.plot-tab .plot-chrs .chrs-brd {
+  min-width: 150px;
+  max-width: 150px;
+  height: 150px;
+  box-sizing: border-box;
+  padding: 5px;
+  border-radius: calc(var(--bradius) + 5px);
+  border: 2px solid var(--accent);
+}
+
+.plot-tab .plot-chrs .chrs-pic {
+  border-radius: var(--bradius);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.plot-tab .plot-chrs .chrs-desc {
+  width: 100%;
+}
+
+.plot-tab .plot-chrs .chrs-desc .chrs-name {
+  font-family: var(--font1);
+  font-size: var(--fs-h3);
+  font-weight: 900;
+  text-transform: lowercase;
+  font-style: italic;
+  color: var(--accent);
+  line-height: 100%;
+}
+
+.plot-tab .plot-chrs .chrs-desc .chrs-data {
+  margin: 6px 0px;
+}
+
+.plot-tab .plot-chrs .chrs-desc .chrs-data span {
+  display: inline-block;
+  padding: 1px 4px;
+  text-transform: uppercase;
+  font-family: var(--font3);
+  font-weight: 700;
+  font-size: var(--fs-smaller);
+  background-color: var(--txt4);
+  color: var(--back2);
+  border-radius: var(--bradius);
+  margin: 0px 1.5px;
+}
+
+.plot-tab .plot-chrono {
+  padding: 60px;
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--back2);
+}
+
+.plot-tab .chrono-tit {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: var(--fs-big);
+  font-family: var(--font3);
+  text-transform: uppercase;
+  color: var(--tborder-c);
+  font-weight: 400;
+}
+
+.plot-chrono .chrono-tit i {
+  font-size: var(--fs-h3);
+  line-height: 100%;
+  display: inline-block;
+  background-image: linear-gradient(var(--accent),var(--taccent));
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--back2);
+  border-radius: var(--bradius);
+}
+
+.plot-chrono .chrono-topic {
+  display: flex;
+  margin: 30px 0px 0px 10px;
+  align-items: center;
+  gap: 20px;
+}
+
+.plot-chrono .chrono-topic .topic-ball {
+  border-radius: var(--bradius);
+  font-size: var(--fs-big);
+  font-family: "Font Awesome 6 Pro";
+  background: var(--accent);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--back2);
+  font-weight: 700;
+}
+
+.plot-chrono .chrono-topic .topic-data span {
+  display: block;
+  font-family: var(--font3);
+  text-transform: uppercase;
+  font-size: var(--fs-small);
+  color: var(--txt3);
+}
+
+.plot-chrono .chrono-topic .topic-data a {
+  color: var(--accent);
+  font-family: var(--font1);
+  text-transform: uppercase;
+  font-size: var(--fs-h5);
+  font-weight: 800;
+  text-decoration: none;
+  line-height: 100%;
+}
+
+.plot-chrono .chrono-topic#cerrado {--accent: var(--taccent); --txt3: var(--txt4);}
+
+.plot-chrono .chrono-topic#abierto .topic-ball:before {content: "\f3c1";}
+.plot-chrono .chrono-topic#cerrado .topic-ball:before {content: "\f023";}
+
+.plot-chrono .chrono-topic:before {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 30px;
+  background: var(--accent);
+  margin-top: -70px;
+  margin-left: 19px;
+  position: absolute;
+}
