@@ -11,10 +11,12 @@
   font-family: var(--font2);
   line-height: 120%;
   font-size: var(--fs-text);
+  --acento: var(--accent);
+  --tacento: var(--taccent);
 }
 
-.rol-tab#poseidon .rol-tit, .rol-tab#poseidon .rol-footer {--accent: var(--poseidon); --taccent: var(--tposeidon);}
-.rol-tab#apolo .rol-tit, .rol-tab#apolo .rol-footer {--accent: var(--apolo); --taccent: var(--tapolo);}
+.rol-tab#poseidon {--acento: var(--poseidon); --tacento: var(--tposeidon);}
+.rol-tab#apolo {--acento: var(--apolo); --tacento: var(--tapolo);}
 
 .rol-tab .rol-tit {
   background: var(--tback2);
@@ -32,7 +34,7 @@
 
 .rol-tab .rol-tit em {
   display: block;
-  color: var(--taccent);
+  color: var(--acento);
   font-style: italic;
   font-size: var(--fs-bigger);
   line-height: var(--fs-h5);
@@ -51,7 +53,7 @@
   content: "";
   height: 1px;
   width: 10%;
-  background: var(--taccent);
+  background: var(--tacento);
   display: inline-block;
   vertical-align: 3px;
   margin: 0px 10px 0px 0px;
@@ -67,10 +69,10 @@
   word-break: break-word;
   hyphens: auto;
   font-size: var(--fs-body);
-  line-height: var(--fs-big);
+  line-height: var(--fs-bigger);
 }
 
-.rol-tab .rol-text strong { color: var(--accent); }
+.rol-tab .rol-text strong { color: var(--acento); }
 
 .rol-tab .rol-footer {
   width: 100%;
@@ -90,7 +92,7 @@
   box-sizing: border-box;
   padding: 2px;
   border-radius: calc(var(--bradius) + 2px);
-  border: 1px solid var(--taccent);
+  border: 1px solid var(--tacento);
 }
 
 .rol-tab .rol-footer .rol-pic div {
@@ -114,7 +116,7 @@
 .rol-tab .rol-footer .rol-data when:before {
   content: "\f133";
   font-family: "Font Awesome 6 Pro";
-  color: var(--accent);
+  color: var(--acento);
   margin-right: 7.5px;
   font-weight: 100;
 }
