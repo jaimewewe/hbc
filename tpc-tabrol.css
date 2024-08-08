@@ -1,0 +1,136 @@
+.rol-tab {
+  border: var(--border1);
+  border-radius: var(--bradius);
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: var(--txt1);
+  font-family: var(--font2);
+  line-height: 120%;
+  font-size: var(--fs-text);
+}
+
+.rol-tab#poseidon {--accent: var(--poseidon); --taccent: var(--tposeidon);}
+.rol-tab#apolo {--accent: var(--apolo); --taccent: var(--tapolo);}
+
+.rol-tab .rol-tit {
+  background: var(--tback2);
+  width: 100%;
+  font-size: var(--fs-h3);
+  font-family: var(--font1);
+  text-transform: uppercase;
+  font-weight: 900;
+  color: var(--txt1);
+  padding: 60px;
+  line-height: var(--fs-h4);
+  border-bottom: var(--border1);
+  font-style: normal;
+}
+
+.rol-tab .rol-tit em {
+  display: block;
+  color: var(--taccent);
+  font-style: italic;
+  font-size: var(--fs-bigger);
+  line-height: var(--fs-h5);
+}
+
+.rol-tab .rol-tit span {
+  display: block;
+  font-size: var(--fs-small);
+  font-family: var(--font2);
+  font-weight: 400;
+  font-style: normal;
+  color: var(--txt4);
+}
+
+.rol-tab .rol-tit span:before {
+  content: "";
+  height: 1px;
+  width: 10%;
+  background: var(--taccent);
+  display: inline-block;
+  vertical-align: 3px;
+  margin: 0px 10px 0px 0px;
+}
+
+.rol-tab .rol-text {
+  border-bottom: var(--border1);
+  width: 100%;
+  box-sizing: border-box;
+  padding: 60px;
+  background: var(--back1);
+  text-align: justify;
+  word-break: break-word;
+  hyphens: auto;
+  font-size: var(--fs-body);
+  line-height: var(--fs-big);
+}
+
+.rol-tab .rol-text strong { color: var(--accent); }
+
+.rol-tab .rol-footer {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 60px;
+  background: var(--tback2);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+}
+
+.rol-tab .rol-footer .rol-pic {
+  min-width: 50px;
+  max-width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 2px;
+  border-radius: calc(var(--bradius) + 2px);
+  border: 1px solid var(--taccent);
+}
+
+.rol-tab .rol-footer .rol-pic div {
+  border-radius: var(--bradius);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.rol-tab .rol-footer .rol-data {
+  display: flex;
+  gap: 22.5px;
+  font-size: var(--fs-smaller);
+  line-height: var(--fs-smaller);
+  font-family: var(--font3);
+  text-transform: uppercase;
+  color: var(--txt4);
+}
+
+.rol-tab .rol-footer .rol-data when:before {
+  content: "\f133";
+  font-family: "Font Awesome 6 Pro";
+  color: var(--accent);
+  margin-right: 7.5px;
+  font-weight: 100;
+}
+
+.rol-tab .rol-footer .rol-data where:before {
+  content: "\f124";
+  font-family: "Font Awesome 6 Pro";
+  color: var(--accent);
+  margin-right: 7.5px;
+  font-weight: 100;
+}
+
+.rol-tab .rol-footer .rol-data who:before {
+  content: "\f007";
+  font-family: "Font Awesome 6 Pro";
+  color: var(--accent);
+  margin-right: 7.5px;
+  font-weight: 100;
+}
