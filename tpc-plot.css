@@ -258,7 +258,7 @@
 
 .plot-chrono .chrono-topic .topic-ball {
   border-radius: var(--bradius);
-  font-size: var(--fs-big);
+  font-size: var(--fs-text);
   font-family: "Font Awesome 6 Pro";
   background: var(--acento);
   width: 40px;
@@ -275,7 +275,7 @@
   font-family: var(--font3);
   text-transform: uppercase;
   font-size: var(--fs-small);
-  color: var(--txt3);
+  color: var(--txt2);
 }
 
 .plot-chrono .chrono-topic .topic-data a {
