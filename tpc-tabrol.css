@@ -124,7 +124,7 @@
 .rol-tab .rol-footer .rol-data where:before {
   content: "\f124";
   font-family: "Font Awesome 6 Pro";
-  color: var(--accent);
+  color: var(--acento);
   margin-right: 7.5px;
   font-weight: 100;
 }
@@ -132,7 +132,7 @@
 .rol-tab .rol-footer .rol-data who:before {
   content: "\f007";
   font-family: "Font Awesome 6 Pro";
-  color: var(--accent);
+  color: var(--acento);
   margin-right: 7.5px;
   font-weight: 100;
 }
