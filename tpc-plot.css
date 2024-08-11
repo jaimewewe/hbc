@@ -64,6 +64,7 @@
   font-size: var(--fs-body);
   line-height: var(--fs-bigger);
   font-weight: 400;
+  text-align: left;
 }
 
 .plot-tab .plot-quote .fa-thin {
